@@ -87,7 +87,7 @@ One of the key lessons was that a query returning a result does not necessarily 
 
 📌 Disclaimer
 
-This is a coursework project developed using multiple public sources, prior similar analytical approaches, and AI-assisted tools during research, implementation, debugging, and documentation.
+This is a project developed using multiple public sources, prior similar analytical approaches, and other tools during research, implementation, debugging, and documentation.
 
 It should not be considered original research or independently validated. The findings are intended for educational and portfolio purposes, and the underlying dataset and assumptions should be reviewed before using the analysis for real-world business decisions.
                            
