@@ -1,0 +1,1208 @@
+{
+  "catalogue_size": 283,
+  "n_answerable": 23,
+  "n_edge": 7,
+  "systems": {
+    "A_keyword_baseline": {
+      "queries": 23,
+      "precision_at_5": 0.443,
+      "precision_of_returned": 0.443,
+      "hit_rate_at_5": 0.783,
+      "constraint_violation_rate": 0.443,
+      "queries_with_any_violation": 21,
+      "avg_returned": 5.0,
+      "avg_distinct_subcategories": 1.83,
+      "avg_distinct_base_products": 2.39,
+      "zero_result_rate": 0.0,
+      "median_latency_ms": 0.5
+    },
+    "B_keyword_plus_hard_filters": {
+      "queries": 23,
+      "precision_at_5": 0.739,
+      "precision_of_returned": 0.739,
+      "hit_rate_at_5": 0.913,
+      "constraint_violation_rate": 0.0,
+      "queries_with_any_violation": 0,
+      "avg_returned": 5.0,
+      "avg_distinct_subcategories": 2.04,
+      "avg_distinct_base_products": 2.61,
+      "zero_result_rate": 0.0,
+      "median_latency_ms": 5.53
+    },
+    "C_intent_aware_ranked": {
+      "queries": 23,
+      "precision_at_5": 0.974,
+      "precision_of_returned": 0.991,
+      "hit_rate_at_5": 1.0,
+      "constraint_violation_rate": 0.0,
+      "queries_with_any_violation": 0,
+      "avg_returned": 4.91,
+      "avg_distinct_subcategories": 3.26,
+      "avg_distinct_base_products": 4.22,
+      "zero_result_rate": 0.0,
+      "median_latency_ms": 8.39
+    }
+  },
+  "edge_cases": [
+    {
+      "id": "Q23",
+      "kind": "conflict",
+      "expected": "needs_clarification",
+      "actual": "needs_clarification",
+      "match": true
+    },
+    {
+      "id": "E01",
+      "kind": "vague",
+      "expected": "needs_clarification",
+      "actual": "needs_clarification",
+      "match": true
+    },
+    {
+      "id": "E02",
+      "kind": "conflict",
+      "expected": "needs_clarification",
+      "actual": "needs_clarification",
+      "match": true
+    },
+    {
+      "id": "E03",
+      "kind": "unsupported",
+      "expected": "unsupported",
+      "actual": "unsupported",
+      "match": true
+    },
+    {
+      "id": "E04",
+      "kind": "no_match",
+      "expected": "no_results",
+      "actual": "no_results",
+      "match": true
+    },
+    {
+      "id": "E05",
+      "kind": "no_match",
+      "expected": "no_results",
+      "actual": "no_results",
+      "match": true
+    },
+    {
+      "id": "E06",
+      "kind": "conflict",
+      "expected": "needs_clarification",
+      "actual": "needs_clarification",
+      "match": true
+    }
+  ],
+  "edge_case_accuracy": 1.0,
+  "per_query": {
+    "A_keyword_baseline": [
+      {
+        "id": "Q01",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 1,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.4294610000670218,
+        "ids": [
+          "SYN-0022",
+          "SYN-0023",
+          "SYN-0024",
+          "SYN-0220",
+          "SYN-0221"
+        ]
+      },
+      {
+        "id": "Q02",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 3,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 0.4505860000563189,
+        "ids": [
+          "SYN-0118",
+          "SYN-0119",
+          "SYN-0120",
+          "SYN-0214",
+          "SYN-0215"
+        ]
+      },
+      {
+        "id": "Q03",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 3,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 0.20174400003725168,
+        "ids": [
+          "SYN-0127",
+          "SYN-0128",
+          "SYN-0129",
+          "SYN-0139",
+          "SYN-0140"
+        ]
+      },
+      {
+        "id": "Q04",
+        "n_returned": 5,
+        "relevant": 4,
+        "violations": 1,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 0.49574899992421706,
+        "ids": [
+          "SYN-0196",
+          "SYN-0197",
+          "SYN-0198",
+          "SYN-0133",
+          "SYN-0134"
+        ]
+      },
+      {
+        "id": "Q05",
+        "n_returned": 5,
+        "relevant": 0,
+        "violations": 5,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.510129999952369,
+        "ids": [
+          "SYN-0103",
+          "SYN-0104",
+          "SYN-0105",
+          "SYN-0244",
+          "SYN-0245"
+        ]
+      },
+      {
+        "id": "Q06",
+        "n_returned": 5,
+        "relevant": 4,
+        "violations": 1,
+        "distinct_sub": 3,
+        "distinct_base": 3,
+        "latency_ms": 0.5957770000577511,
+        "ids": [
+          "SYN-0085",
+          "SYN-0087",
+          "SYN-0076",
+          "SYN-0078",
+          "SYN-0067"
+        ]
+      },
+      {
+        "id": "Q07",
+        "n_returned": 5,
+        "relevant": 0,
+        "violations": 3,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 0.3636930000538996,
+        "ids": [
+          "SYN-0119",
+          "SYN-0196",
+          "SYN-0118",
+          "SYN-0120",
+          "SYN-0187"
+        ]
+      },
+      {
+        "id": "Q08",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 1,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.2998169999273159,
+        "ids": [
+          "SYN-0220",
+          "SYN-0221",
+          "SYN-0222",
+          "SYN-0022",
+          "SYN-0023"
+        ]
+      },
+      {
+        "id": "Q09",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 3,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.31279100005576765,
+        "ids": [
+          "SYN-0217",
+          "SYN-0218",
+          "SYN-0219",
+          "SYN-0220",
+          "SYN-0221"
+        ]
+      },
+      {
+        "id": "Q10",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 2,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.5841970000801666,
+        "ids": [
+          "SYN-0106",
+          "SYN-0107",
+          "SYN-0108",
+          "SYN-0114",
+          "SYN-0112"
+        ]
+      },
+      {
+        "id": "Q11",
+        "n_returned": 5,
+        "relevant": 4,
+        "violations": 1,
+        "distinct_sub": 1,
+        "distinct_base": 3,
+        "latency_ms": 0.3393180001012297,
+        "ids": [
+          "SYN-9008",
+          "SYN-0001",
+          "SYN-0002",
+          "SYN-0003",
+          "SYN-0004"
+        ]
+      },
+      {
+        "id": "Q12",
+        "n_returned": 5,
+        "relevant": 0,
+        "violations": 4,
+        "distinct_sub": 5,
+        "distinct_base": 5,
+        "latency_ms": 0.2542969999694833,
+        "ids": [
+          "SYN-9008",
+          "SYN-0166",
+          "SYN-0179",
+          "SYN-0191",
+          "SYN-0193"
+        ]
+      },
+      {
+        "id": "Q13",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 2,
+        "distinct_sub": 3,
+        "distinct_base": 3,
+        "latency_ms": 0.3761639999311228,
+        "ids": [
+          "SYN-0208",
+          "SYN-0209",
+          "SYN-0210",
+          "SYN-0270",
+          "SYN-0162"
+        ]
+      },
+      {
+        "id": "Q14",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 0.21594899999399786,
+        "ids": [
+          "SYN-0046",
+          "SYN-0047",
+          "SYN-0048",
+          "SYN-0049",
+          "SYN-0050"
+        ]
+      },
+      {
+        "id": "Q15",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 1,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.6145350000679173,
+        "ids": [
+          "SYN-0146",
+          "SYN-0147",
+          "SYN-0145",
+          "SYN-0220",
+          "SYN-0221"
+        ]
+      },
+      {
+        "id": "Q16",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 1,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.5757729999231742,
+        "ids": [
+          "SYN-0220",
+          "SYN-0221",
+          "SYN-0222",
+          "SYN-0086",
+          "SYN-0085"
+        ]
+      },
+      {
+        "id": "Q17",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 2,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 0.5105630000343808,
+        "ids": [
+          "SYN-0194",
+          "SYN-0195",
+          "SYN-0193",
+          "SYN-0199",
+          "SYN-0200"
+        ]
+      },
+      {
+        "id": "Q18",
+        "n_returned": 5,
+        "relevant": 0,
+        "violations": 4,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.5880400000251029,
+        "ids": [
+          "SYN-0220",
+          "SYN-0221",
+          "SYN-0222",
+          "SYN-0022",
+          "SYN-0023"
+        ]
+      },
+      {
+        "id": "Q19",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 3,
+        "distinct_sub": 1,
+        "distinct_base": 3,
+        "latency_ms": 0.5947580000338348,
+        "ids": [
+          "SYN-0144",
+          "SYN-0140",
+          "SYN-0154",
+          "SYN-0142",
+          "SYN-0143"
+        ]
+      },
+      {
+        "id": "Q20",
+        "n_returned": 5,
+        "relevant": 1,
+        "violations": 4,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 0.6739919999745325,
+        "ids": [
+          "SYN-0162",
+          "SYN-0182",
+          "SYN-0183",
+          "SYN-0186",
+          "SYN-0160"
+        ]
+      },
+      {
+        "id": "Q21",
+        "n_returned": 5,
+        "relevant": 4,
+        "violations": 1,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 0.5852250000089043,
+        "ids": [
+          "SYN-0247",
+          "SYN-0248",
+          "SYN-0249",
+          "SYN-0256",
+          "SYN-0257"
+        ]
+      },
+      {
+        "id": "Q22",
+        "n_returned": 5,
+        "relevant": 0,
+        "violations": 5,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 0.39371899993057013,
+        "ids": [
+          "SYN-0187",
+          "SYN-0188",
+          "SYN-0189",
+          "SYN-0118",
+          "SYN-0119"
+        ]
+      },
+      {
+        "id": "Q24",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 0.7634599999164493,
+        "ids": [
+          "SYN-0262",
+          "SYN-0263",
+          "SYN-0264",
+          "SYN-0022",
+          "SYN-0023"
+        ]
+      }
+    ],
+    "B_keyword_plus_hard_filters": [
+      {
+        "id": "Q01",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 5.946688999983962,
+        "ids": [
+          "SYN-0022",
+          "SYN-0023",
+          "SYN-0024",
+          "SYN-0220",
+          "SYN-0222"
+        ]
+      },
+      {
+        "id": "Q02",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 4,
+        "latency_ms": 4.28425299992341,
+        "ids": [
+          "SYN-0119",
+          "SYN-0215",
+          "SYN-0216",
+          "SYN-0188",
+          "SYN-0098"
+        ]
+      },
+      {
+        "id": "Q03",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 4.532702999995308,
+        "ids": [
+          "SYN-0128",
+          "SYN-0140",
+          "SYN-0141",
+          "SYN-0022",
+          "SYN-0023"
+        ]
+      },
+      {
+        "id": "Q04",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 5.72932199997922,
+        "ids": [
+          "SYN-0196",
+          "SYN-0198",
+          "SYN-0133",
+          "SYN-0134",
+          "SYN-0135"
+        ]
+      },
+      {
+        "id": "Q05",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 5.391615000007732,
+        "ids": [
+          "SYN-0109",
+          "SYN-0111",
+          "SYN-0202",
+          "SYN-0203",
+          "SYN-0204"
+        ]
+      },
+      {
+        "id": "Q06",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 3,
+        "distinct_base": 3,
+        "latency_ms": 4.6127330000445,
+        "ids": [
+          "SYN-0085",
+          "SYN-0087",
+          "SYN-0078",
+          "SYN-0067",
+          "SYN-0069"
+        ]
+      },
+      {
+        "id": "Q07",
+        "n_returned": 5,
+        "relevant": 0,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 5.547286000023632,
+        "ids": [
+          "SYN-0119",
+          "SYN-0196",
+          "SYN-0188",
+          "SYN-0189",
+          "SYN-0198"
+        ]
+      },
+      {
+        "id": "Q08",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 4.315582000003815,
+        "ids": [
+          "SYN-0220",
+          "SYN-0222",
+          "SYN-0022",
+          "SYN-0023",
+          "SYN-0024"
+        ]
+      },
+      {
+        "id": "Q09",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 4.662684999971134,
+        "ids": [
+          "SYN-0217",
+          "SYN-0220",
+          "SYN-0222",
+          "SYN-0238",
+          "SYN-0240"
+        ]
+      },
+      {
+        "id": "Q10",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 4.319970999972611,
+        "ids": [
+          "SYN-0106",
+          "SYN-0114",
+          "SYN-0112",
+          "SYN-0113",
+          "SYN-0122"
+        ]
+      },
+      {
+        "id": "Q11",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 3.533362999974088,
+        "ids": [
+          "SYN-0001",
+          "SYN-0002",
+          "SYN-0003",
+          "SYN-0004",
+          "SYN-0005"
+        ]
+      },
+      {
+        "id": "Q12",
+        "n_returned": 5,
+        "relevant": 0,
+        "violations": 0,
+        "distinct_sub": 3,
+        "distinct_base": 3,
+        "latency_ms": 4.016739999997299,
+        "ids": [
+          "SYN-0179",
+          "SYN-0226",
+          "SYN-0228",
+          "SYN-0230",
+          "SYN-0231"
+        ]
+      },
+      {
+        "id": "Q13",
+        "n_returned": 5,
+        "relevant": 2,
+        "violations": 0,
+        "distinct_sub": 3,
+        "distinct_base": 3,
+        "latency_ms": 4.240299999992203,
+        "ids": [
+          "SYN-0208",
+          "SYN-0209",
+          "SYN-0270",
+          "SYN-0182",
+          "SYN-0183"
+        ]
+      },
+      {
+        "id": "Q14",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 4.176027999960752,
+        "ids": [
+          "SYN-0046",
+          "SYN-0047",
+          "SYN-0048",
+          "SYN-0049",
+          "SYN-0050"
+        ]
+      },
+      {
+        "id": "Q15",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 6.573145999936969,
+        "ids": [
+          "SYN-0146",
+          "SYN-0147",
+          "SYN-0145",
+          "SYN-0220",
+          "SYN-0222"
+        ]
+      },
+      {
+        "id": "Q16",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 6.291406999935134,
+        "ids": [
+          "SYN-0220",
+          "SYN-0222",
+          "SYN-0086",
+          "SYN-0085",
+          "SYN-0087"
+        ]
+      },
+      {
+        "id": "Q17",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 5.757668000001104,
+        "ids": [
+          "SYN-0194",
+          "SYN-0193",
+          "SYN-0200",
+          "SYN-0201",
+          "SYN-0202"
+        ]
+      },
+      {
+        "id": "Q18",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 5.534039000053781,
+        "ids": [
+          "SYN-0022",
+          "SYN-0024",
+          "SYN-0038",
+          "SYN-0039",
+          "SYN-0002"
+        ]
+      },
+      {
+        "id": "Q19",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 5.972796000037306,
+        "ids": [
+          "SYN-0140",
+          "SYN-0154",
+          "SYN-0155",
+          "SYN-0141",
+          "SYN-0156"
+        ]
+      },
+      {
+        "id": "Q20",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 3,
+        "distinct_base": 3,
+        "latency_ms": 5.7055089999948905,
+        "ids": [
+          "SYN-0183",
+          "SYN-0181",
+          "SYN-0185",
+          "SYN-0025",
+          "SYN-0026"
+        ]
+      },
+      {
+        "id": "Q21",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 5.864482999982101,
+        "ids": [
+          "SYN-0247",
+          "SYN-0249",
+          "SYN-0256",
+          "SYN-0257",
+          "SYN-0258"
+        ]
+      },
+      {
+        "id": "Q22",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 4,
+        "latency_ms": 5.642156000021714,
+        "ids": [
+          "SYN-0215",
+          "SYN-0222",
+          "SYN-0023",
+          "SYN-0098",
+          "SYN-0099"
+        ]
+      },
+      {
+        "id": "Q24",
+        "n_returned": 5,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 5.9549430000060966,
+        "ids": [
+          "SYN-0262",
+          "SYN-0263",
+          "SYN-0264",
+          "SYN-0022",
+          "SYN-0023"
+        ]
+      }
+    ],
+    "C_intent_aware_ranked": [
+      {
+        "id": "Q01",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 10.39,
+        "ids": [
+          "SYN-0001",
+          "SYN-0026",
+          "SYN-0029",
+          "SYN-0256",
+          "SYN-0242"
+        ]
+      },
+      {
+        "id": "Q02",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 4,
+        "latency_ms": 9.75,
+        "ids": [
+          "SYN-0188",
+          "SYN-0119",
+          "SYN-0215",
+          "SYN-0097",
+          "SYN-0099"
+        ]
+      },
+      {
+        "id": "Q03",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 3,
+        "distinct_base": 4,
+        "latency_ms": 8.26,
+        "ids": [
+          "SYN-0128",
+          "SYN-0140",
+          "SYN-0141",
+          "SYN-0151",
+          "SYN-0101"
+        ]
+      },
+      {
+        "id": "Q04",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 6.29,
+        "ids": [
+          "SYN-0196",
+          "SYN-0198",
+          "SYN-0133",
+          "SYN-0097",
+          "SYN-0099"
+        ]
+      },
+      {
+        "id": "Q05",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 3,
+        "distinct_base": 5,
+        "latency_ms": 7.3,
+        "ids": [
+          "SYN-0205",
+          "SYN-0208",
+          "SYN-0212",
+          "SYN-0109",
+          "SYN-0115"
+        ]
+      },
+      {
+        "id": "Q06",
+        "n_returned": 5,
+        "relevant": 4,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 7.02,
+        "ids": [
+          "SYN-0067",
+          "SYN-0079",
+          "SYN-0249",
+          "SYN-0071",
+          "SYN-0050"
+        ]
+      },
+      {
+        "id": "Q07",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 5,
+        "distinct_base": 5,
+        "latency_ms": 6.69,
+        "ids": [
+          "SYN-0268",
+          "SYN-0273",
+          "SYN-0277",
+          "SYN-0238",
+          "SYN-0163"
+        ]
+      },
+      {
+        "id": "Q08",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 8.22,
+        "ids": [
+          "SYN-0229",
+          "SYN-0056",
+          "SYN-0232",
+          "SYN-0250",
+          "SYN-0262"
+        ]
+      },
+      {
+        "id": "Q09",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 7.49,
+        "ids": [
+          "SYN-0217",
+          "SYN-0238",
+          "SYN-0240",
+          "SYN-0223",
+          "SYN-0225"
+        ]
+      },
+      {
+        "id": "Q10",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 8.9,
+        "ids": [
+          "SYN-0106",
+          "SYN-0104",
+          "SYN-0125",
+          "SYN-0044",
+          "SYN-0244"
+        ]
+      },
+      {
+        "id": "Q11",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 6.55,
+        "ids": [
+          "SYN-0001",
+          "SYN-0019",
+          "SYN-0028",
+          "SYN-0242",
+          "SYN-0256"
+        ]
+      },
+      {
+        "id": "Q12",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 6.33,
+        "ids": [
+          "SYN-0103",
+          "SYN-0125",
+          "SYN-0097",
+          "SYN-0044",
+          "SYN-0244"
+        ]
+      },
+      {
+        "id": "Q13",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 3,
+        "distinct_base": 5,
+        "latency_ms": 11.43,
+        "ids": [
+          "SYN-0208",
+          "SYN-0205",
+          "SYN-0212",
+          "SYN-0111",
+          "SYN-0117"
+        ]
+      },
+      {
+        "id": "Q14",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 7.79,
+        "ids": [
+          "SYN-0047",
+          "SYN-0050",
+          "SYN-0058",
+          "SYN-0067",
+          "SYN-0022"
+        ]
+      },
+      {
+        "id": "Q15",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 9.03,
+        "ids": [
+          "SYN-0136",
+          "SYN-0149",
+          "SYN-0146",
+          "SYN-0103",
+          "SYN-0124"
+        ]
+      },
+      {
+        "id": "Q16",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 8.96,
+        "ids": [
+          "SYN-0085",
+          "SYN-0087",
+          "SYN-0089",
+          "SYN-0256",
+          "SYN-0257"
+        ]
+      },
+      {
+        "id": "Q17",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 3,
+        "latency_ms": 8.61,
+        "ids": [
+          "SYN-0194",
+          "SYN-0193",
+          "SYN-0200",
+          "SYN-0201",
+          "SYN-0190"
+        ]
+      },
+      {
+        "id": "Q18",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 3,
+        "distinct_base": 3,
+        "latency_ms": 8.45,
+        "ids": [
+          "SYN-0132",
+          "SYN-0038",
+          "SYN-0039",
+          "SYN-0002",
+          "SYN-0003"
+        ]
+      },
+      {
+        "id": "Q19",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 1,
+        "distinct_base": 2,
+        "latency_ms": 8.53,
+        "ids": [
+          "SYN-0140",
+          "SYN-0154",
+          "SYN-0141",
+          "SYN-0156",
+          "SYN-0155"
+        ]
+      },
+      {
+        "id": "Q20",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 5,
+        "distinct_base": 5,
+        "latency_ms": 8.39,
+        "ids": [
+          "SYN-0167",
+          "SYN-0177",
+          "SYN-0180",
+          "SYN-0163",
+          "SYN-0025"
+        ]
+      },
+      {
+        "id": "Q21",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 9.25,
+        "ids": [
+          "SYN-0247",
+          "SYN-0256",
+          "SYN-0250",
+          "SYN-0035",
+          "SYN-0235"
+        ]
+      },
+      {
+        "id": "Q22",
+        "n_returned": 3,
+        "relevant": 3,
+        "violations": 0,
+        "distinct_sub": 2,
+        "distinct_base": 2,
+        "latency_ms": 8.54,
+        "ids": [
+          "SYN-0215",
+          "SYN-0099",
+          "SYN-0098"
+        ]
+      },
+      {
+        "id": "Q24",
+        "n_returned": 5,
+        "relevant": 5,
+        "violations": 0,
+        "distinct_sub": 4,
+        "distinct_base": 5,
+        "latency_ms": 7.91,
+        "ids": [
+          "SYN-0229",
+          "SYN-0056",
+          "SYN-0234",
+          "SYN-0250",
+          "SYN-0262"
+        ]
+      }
+    ]
+  }
+}
