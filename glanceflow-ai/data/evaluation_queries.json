@@ -1,0 +1,363 @@
+[
+  {
+    "id": "Q01",
+    "query": "Find a thoughtful gift under ₹1,500 for a friend who loves reading, prefers practical things, and dislikes generic gifts",
+    "expected_interests": [
+      "reading"
+    ],
+    "oracle_budget_max": 1500,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q02",
+    "query": "Gift for a coffee lover, budget ₹1,000",
+    "expected_interests": [
+      "coffee"
+    ],
+    "oracle_budget_max": 1000,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q03",
+    "query": "Something for my sister who is into yoga and fitness under ₹1200",
+    "expected_interests": [
+      "yoga",
+      "fitness"
+    ],
+    "oracle_budget_max": 1200,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q04",
+    "query": "Birthday present for a colleague who loves tea, up to ₹700",
+    "expected_interests": [
+      "tea"
+    ],
+    "oracle_budget_max": 700,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q05",
+    "query": "Gift for a friend who loves cooking, no candles, under 1500",
+    "expected_interests": [
+      "cooking"
+    ],
+    "oracle_budget_max": 1500,
+    "oracle_exclusions": [
+      "candle"
+    ],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q06",
+    "query": "Practical tech gadget for a college student under ₹1,000",
+    "expected_interests": [
+      "tech"
+    ],
+    "oracle_budget_max": 1000,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q07",
+    "query": "A travel lover is moving abroad, what can I get under ₹1,200",
+    "expected_interests": [
+      "travel"
+    ],
+    "oracle_budget_max": 1200,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q08",
+    "query": "Creative gift for someone who loves sketching and art, max ₹1,500",
+    "expected_interests": [
+      "art"
+    ],
+    "oracle_budget_max": 1500,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q09",
+    "query": "Something for a board game and puzzle fan under 1000",
+    "expected_interests": [
+      "games"
+    ],
+    "oracle_budget_max": 1000,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q10",
+    "query": "Gift for my mom who loves plants and home decor under ₹900",
+    "expected_interests": [
+      "plants",
+      "home"
+    ],
+    "oracle_budget_max": 900,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q11",
+    "query": "Unique gift for a friend who loves reading",
+    "expected_interests": [
+      "reading"
+    ],
+    "oracle_budget_max": null,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q12",
+    "query": "Housewarming gift under ₹800",
+    "expected_interests": [
+      "home"
+    ],
+    "oracle_budget_max": 800,
+    "oracle_exclusions": [],
+    "kind": "answerable_loose",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q13",
+    "query": "Gift for a baking enthusiast, budget 1,200, nothing generic",
+    "expected_interests": [
+      "baking",
+      "cooking"
+    ],
+    "oracle_budget_max": 1200,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q14",
+    "query": "Study essentials for an exam-prep student under ₹600",
+    "expected_interests": [
+      "study"
+    ],
+    "oracle_budget_max": 600,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q15",
+    "query": "Wellness gift for my dad who wants to relax and sleep better, under ₹1,500",
+    "expected_interests": [
+      "wellness"
+    ],
+    "oracle_budget_max": 1500,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q16",
+    "query": "Gift for a music lover under ₹1,500",
+    "expected_interests": [
+      "music"
+    ],
+    "oracle_budget_max": 1500,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q17",
+    "query": "Snack hamper for a colleague under ₹1,000",
+    "expected_interests": [
+      "snacks"
+    ],
+    "oracle_budget_max": 1000,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q18",
+    "query": "Journaling and writing gift for a friend under ₹500",
+    "expected_interests": [
+      "writing"
+    ],
+    "oracle_budget_max": 500,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q19",
+    "query": "Eco-friendly practical gift for someone who loves fitness, under ₹1,000",
+    "expected_interests": [
+      "fitness"
+    ],
+    "oracle_budget_max": 1000,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q20",
+    "query": "Gift for a friend who loves fashion accessories under ₹700",
+    "expected_interests": [
+      "fashion"
+    ],
+    "oracle_budget_max": 700,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q21",
+    "query": "Learning gift for a curious teenager under ₹2,000",
+    "expected_interests": [
+      "learning"
+    ],
+    "oracle_budget_max": 2000,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q22",
+    "query": "Coffee lover gift between ₹500 and ₹900",
+    "expected_interests": [
+      "coffee"
+    ],
+    "oracle_budget_max": 900,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "Q23",
+    "query": "Reading gift, no books, under ₹1000 for a bookworm friend",
+    "expected_interests": [
+      "reading"
+    ],
+    "oracle_budget_max": 1000,
+    "oracle_exclusions": [
+      "book"
+    ],
+    "kind": "conflict",
+    "expect_status": "needs_clarification",
+    "category": null
+  },
+  {
+    "id": "Q24",
+    "query": "Photography and art gift for a friend, up to 2,000",
+    "expected_interests": [
+      "art"
+    ],
+    "oracle_budget_max": 2000,
+    "oracle_exclusions": [],
+    "kind": "answerable",
+    "expect_status": "ok",
+    "category": null
+  },
+  {
+    "id": "E01",
+    "query": "something nice",
+    "expected_interests": [],
+    "oracle_budget_max": null,
+    "oracle_exclusions": [],
+    "kind": "vague",
+    "expect_status": "needs_clarification",
+    "category": null
+  },
+  {
+    "id": "E02",
+    "query": "Gift under ₹500 but at least ₹900 for a friend who loves tea",
+    "expected_interests": [
+      "tea"
+    ],
+    "oracle_budget_max": null,
+    "oracle_exclusions": [],
+    "kind": "conflict",
+    "expect_status": "needs_clarification",
+    "category": null
+  },
+  {
+    "id": "E03",
+    "query": "Buy this for me now",
+    "expected_interests": [],
+    "oracle_budget_max": null,
+    "oracle_exclusions": [],
+    "kind": "unsupported",
+    "expect_status": "unsupported",
+    "category": null
+  },
+  {
+    "id": "E04",
+    "query": "Gift for someone who loves scuba diving under ₹100",
+    "expected_interests": [
+      "scuba"
+    ],
+    "oracle_budget_max": 100,
+    "oracle_exclusions": [],
+    "kind": "no_match",
+    "expect_status": "no_results",
+    "category": null
+  },
+  {
+    "id": "E05",
+    "query": "Reading gift under ₹50",
+    "expected_interests": [
+      "reading"
+    ],
+    "oracle_budget_max": 50,
+    "oracle_exclusions": [],
+    "kind": "no_match",
+    "expect_status": "no_results",
+    "category": null
+  },
+  {
+    "id": "E06",
+    "query": "Cheap but premium gift for my friend",
+    "expected_interests": [],
+    "oracle_budget_max": null,
+    "oracle_exclusions": [],
+    "kind": "conflict",
+    "expect_status": "needs_clarification",
+    "category": null
+  }
+]
