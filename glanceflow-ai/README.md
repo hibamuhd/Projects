@@ -105,6 +105,3 @@ Synthetic catalogue; single demo profile and no auth; no real users, no real ima
 
 ## Roadmap
 Embedding retrieval behind the existing `Retriever` protocol; learned ranking from real feedback; content (not just product) catalogue; multi-user profiles with auth; a real A/A then A/B test per [EXPERIMENT_PLAN](docs/EXPERIMENT_PLAN.md).
-
-## Presenting this repo on GitHub
-Pin it with a one-line description ("Agentic discovery prototype with deterministic verification, synthetic data"), add the screenshots and the two diagrams above, keep the **Limitations** section visible, and link the [case study](docs/PRODUCT_CASE_STUDY.md). Do not add claims about Glance or real users.
