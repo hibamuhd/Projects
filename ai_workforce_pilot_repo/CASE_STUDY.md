@@ -11,7 +11,3 @@
 
 **Limits.** Three occupations; single-pass LLM scoring without human validation or stability tests; wages, costs, adoption and headcount are assumptions; occupation mapping is analyst-assigned; results are modelled, not realised. Client wage, headcount and attrition data would improve it most.
 
-**Resume bullets (actual results).**
-- Scored 60 O*NET tasks across 3 IT-BPM occupations with a versioned LLM rubric; occupation ranking matched the ILO 2025 exposure index.
-- Built a 3-year INR investment model and integer-optimised allocation for a hypothetical 10,000-person firm: NPV INR 17.9 crore (payback year 2) vs -INR 8.7 crore for reskilling the most exposed role first.
-- Stress-tested 11 drivers (NPV positive in all) and showed reskilling pays only if training cost falls 30%.
