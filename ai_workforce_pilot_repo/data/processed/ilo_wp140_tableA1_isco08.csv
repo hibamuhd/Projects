@@ -1,0 +1,113 @@
+gradient,isco08_code,occupation_name,mean_score,sd_score
+Gradient 4,4132,Data Entry Clerks,0.7,0.03
+Gradient 4,4131,Typists and Word Processing Operators,0.65,0.05
+Gradient 4,4311,Accounting and Bookkeeping Clerks,0.64,0.07
+Gradient 4,4312,"Statistical, Finance and Insurance Clerks",0.64,0.02
+Gradient 4,3311,Securities and Finance Dealers and Brokers,0.63,0.04
+Gradient 4,4419,Clerical Support Workers Not Elsewhere Classified,0.63,0.03
+Gradient 4,2413,Financial Analysts,0.62,0.06
+Gradient 4,4313,Payroll Clerks,0.61,0.08
+Gradient 4,5244,Contact Centre Salespersons,0.61,0.1
+Gradient 4,2513,Web and Multimedia Developers,0.6,0.08
+Gradient 4,3312,Credit and Loans Officers,0.6,0.04
+Gradient 4,4110,General Office Clerks,0.6,0.1
+Gradient 4,4416,Personnel Clerks,0.6,0.09
+Gradient 3,2643,"Translators, Interpreters and Other Linguists",0.59,0.11
+Gradient 3,4120,Secretaries (general),0.58,0.1
+Gradient 3,4211,Bank Tellers and Related Clerks,0.58,0.09
+Gradient 3,4222,Contact Centre Information Clerks,0.58,0.06
+Gradient 3,4414,Scribes and Related Workers,0.58,0.08
+Gradient 3,2412,Financial and Investment Advisers,0.57,0.11
+Gradient 3,2514,Applications Programmers,0.57,0.08
+Gradient 3,2521,Database Designers and Administrators,0.57,0.08
+Gradient 3,2522,Systems Aministrators,0.57,0.05
+Gradient 3,3314,"Statistical, Mathematical and Related Associate Professionals",0.57,0.1
+Gradient 3,3331,Clearing and Forwarding Aents,0.57,0.09
+Gradient 3,4225,Inquiry Clerks,0.57,0.09
+Gradient 3,4226,Receptionists (general),0.57,0.17
+Gradient 3,2120,"Mathematicians, Actuaries and Statisticians",0.56,0.09
+Gradient 3,4221,Travel Consultants and Clerks,0.56,0.07
+Gradient 3,2431,Advertising and Marketing Professionals,0.55,0.09
+Gradient 3,2519,Software and Applications Developers and Analysts Not Elsewhere Classified,0.55,0.16
+Gradient 3,2622,Librarians and Related Information Professionals,0.55,0.04
+Gradient 3,2631,Economists,0.55,0.08
+Gradient 3,2641,Authors and Related Writers,0.55,0.09
+Gradient 3,3342,Legal Secretaries,0.55,0.13
+Gradient 3,4227,Survey and Market Research Interviewers,0.55,0.16
+Gradient 3,2112,Meteorologists,0.54,0.13
+Gradient 3,2642,Journalists,0.54,0.1
+Gradient 3,3343,Administrative and Executive Secretaries,0.54,0.14
+Gradient 3,4223,Telephone Switchboard Operators,0.54,0.15
+Gradient 3,2512,Software Developers,0.53,0.07
+Gradient 3,3321,Insurance Representatives,0.53,0.12
+Gradient 3,3344,Medical Secretaries,0.53,0.11
+Gradient 3,3514,Web Technicians,0.53,0.12
+Gradient 3,2523,Computer Network Professionals,0.52,0.06
+Gradient 3,3252,Medical Records and Health Information Technicians,0.52,0.1
+Gradient 3,2411,Accountants,0.51,0.08
+Gradient 3,2434,Information and Communications Technology Sales Professionals,0.51,0.09
+Gradient 3,4224,Hotel Receptionists,0.51,0.07
+Gradient 3,4413,"Coding, Proofreading and Related Clerks",0.51,0.2
+Gradient 3,2433,Technical and Medical Sales Professionals (excluding ICT),0.5,0.1
+Gradient 3,4323,Transport Clerks,0.5,0.1
+Gradient 2,2166,Graphic and Multimedia Designers,0.49,0.09
+Gradient 2,2511,Systems Analysts,0.49,0.05
+Gradient 2,2529,Database and Network Professionals Not Elsewhere Classified,0.49,0.06
+Gradient 2,3313,Accounting Associate Professionals,0.49,0.13
+Gradient 2,3322,Commercial Sales Representatives,0.49,0.08
+Gradient 2,3352,Government Tax and Excise Officials,0.49,0.12
+Gradient 2,2153,Telecommunications Engineers,0.48,0.12
+Gradient 2,2632,"Sociologists, Anthropologists and Related Professionals",0.48,0.12
+Gradient 2,3332,Conference and Event Planners,0.48,0.14
+Gradient 2,4213,Pawnbrokers and Money-lenders,0.48,0.06
+Gradient 2,1346,Financial and Insurance Services Branch managers,0.47,0.12
+Gradient 2,2356,Information Technology Trainers,0.47,0.1
+Gradient 2,2621,Archivists and Curators,0.47,0.11
+Gradient 2,2633,"Philosophers, Historians and Political Scientists",0.47,0.06
+Gradient 2,2656,"Announcers on Radio, Television and Other Media",0.47,0.12
+Gradient 2,3512,Information and Communications Technology User Support Technicians,0.47,0.19
+Gradient 2,2421,Management and Organization Analysts,0.46,0.1
+Gradient 2,4411,Library Clerks,0.46,0.18
+Gradient 2,5243,Door-to-door Salespersons,0.46,0.18
+Gradient 2,2423,Personnel and Careers Professionals,0.45,0.07
+Gradient 2,3315,Valuers and Loss Assessors,0.45,0.19
+Gradient 2,3353,Government Social Benefits Officials,0.45,0.07
+Gradient 2,4212,"Bookmakers, Croupiers and Related Gaming Workers",0.45,0.19
+Gradient 2,1330,Information and Communications Technology Service Managers,0.44,0.07
+Gradient 2,1420,Retail and Wholesale Trade Managers,0.44,0.15
+Gradient 2,2165,Cartographers and Surveyors,0.44,0.12
+Gradient 2,3324,Trade Brokers,0.44,0.1
+Gradient 2,3339,Business Services Agents Not Elsewhere Classified,0.44,0.12
+Gradient 2,4322,Production Clerks,0.44,0.06
+Gradient 2,2432,Public Relations Professionals,0.43,0.09
+Gradient 2,3341,Office Supervisors,0.43,0.11
+Gradient 2,3354,Government Licensing Officials,0.43,0.07
+Gradient 2,3511,Information and Communications Technology Operations Technicians,0.43,0.13
+Gradient 2,3513,Computer Network and Systems Technicians,0.43,0.08
+Gradient 2,4214,Debt Collectors and Related Workers,0.43,0.07
+Gradient 2,5221,Shopkeepers,0.43,0.1
+Gradient 2,1219,Business Services and Administration Managers Not Elsewhere Classified,0.42,0.1
+Gradient 2,2152,Electronics Engineers,0.42,0.13
+Gradient 2,4229,Client Information Workers Not Elsewhere Classified,0.42,0.13
+Gradient 2,5242,Sales Demonstrators,0.42,0.11
+Gradient 2,1221,Sales and Marketing Managers,0.41,0.09
+Gradient 2,2424,Training and Staff Development Professionals,0.41,0.09
+Gradient 2,4412,Mail Carriers and Sorting Clerks,0.41,0.15
+Gradient 2,2131,"Biologists, Botanists, Zoologists and Related Professionals",0.4,0.1
+Gradient 1,2351,Education Methods Specialists,0.39,0.11
+Gradient 1,2634,Psychologists,0.39,0.14
+Gradient 1,3411,Legal and Related Associate Professionals,0.39,0.14
+Gradient 1,3431,Photographers,0.39,0.12
+Gradient 1,5230,Cashiers and Ticket Clerks,0.39,0.14
+Gradient 1,2111,Physicists and Astronomers,0.38,0.14
+Gradient 1,3141,Life Science Technicians (excluding Medical),0.38,0.18
+Gradient 1,5223,Shop Sales Assistants,0.38,0.16
+Gradient 1,7321,Pre-press Technicians,0.38,0.22
+Gradient 1,9623,Meter Readers and Vending-machine Collectors,0.38,0.21
+Gradient 1,1411,Hotel Managers,0.37,0.13
+Gradient 1,3433,"Gallery, Museum and Library Technicians",0.37,0.2
+Gradient 1,4415,Filing and Copying Clerks,0.37,0.17
+Gradient 1,9621,"Messengers, Package Deliverers and Luggage Porters",0.37,0.19
+Gradient 1,3256,Medical Assistants,0.35,0.23
+Gradient 1,5211,Stall and Market Salespersons,0.35,0.17
+Gradient 1,8322,"Car, Taxi and Van Drivers",0.28,0.23

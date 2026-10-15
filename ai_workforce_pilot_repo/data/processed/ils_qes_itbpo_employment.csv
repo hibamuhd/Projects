@@ -1,0 +1,7 @@
+period,round,ils_table,est_total_workers_itbpo,pct_self_employed,pct_employees,pct_male,pct_female,source
+2021-04..06,QES Round 1,2.14(a),2071229,1.0,99.0,68.2,31.8,"Indian Labour Statistics 2022 & 2023, Labour Bureau, Govt of India; Quarterly Employment Survey"
+2021-07..09,QES Round 2,2.14(b),3321288,0.1,99.9,62.4,37.6,"Indian Labour Statistics 2022 & 2023, Labour Bureau, Govt of India; Quarterly Employment Survey"
+2021-10..12,QES Round 3,2.14(c),3456839,0.1,99.9,61.3,38.7,"Indian Labour Statistics 2022 & 2023, Labour Bureau, Govt of India; Quarterly Employment Survey"
+2022-01..03,QES Round 4,2.14(d),3831452,0.1,99.9,64.18,35.82,"Indian Labour Statistics 2022 & 2023, Labour Bureau, Govt of India; Quarterly Employment Survey"
+2022-04..06,QES Round 5,2.14(e),3660787,0.33,99.67,89.37,10.63,"Indian Labour Statistics 2022 & 2023, Labour Bureau, Govt of India; Quarterly Employment Survey"
+2022-07..09,QES Round 6,2.14(f),3732495,0.01,99.99,64.46,35.54,"Indian Labour Statistics 2022 & 2023, Labour Bureau, Govt of India; Quarterly Employment Survey"

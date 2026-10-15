@@ -1,0 +1,5 @@
+metric,source,status,file,notes
+"ILO WP140 Table A1 (ISCO-08 4-digit mean & SD, gradients)","ILO Working Paper 140, May 2025 (user-uploaded WP140_web.pdf), Annex Table A1, pp.48-?",observed,data/processed/ilo_wp140_tableA1_isco08.csv,112 exposed occupations; CC BY 4.0
+"IT/BPO estimated workers, 6 QES rounds Apr-2021..Sep-2022","Indian Labour Statistics 2022 & 2023, Labour Bureau, Table 2.14(a)-(f) (user-uploaded ILS_202223_Final.pdf)",observed (survey estimate),data/processed/ils_qes_itbpo_employment.csv,"QES covers establishments with 10+ workers; round-to-round swings are survey artefacts, not employment change; Round 5 male share 89.4% is an outlier vs 62-64% elsewhere"
+"O*NET task statements, Software Developers 15-1252.00","O*NET OnLine details page, retrieved 2026-10-15, listing marked Updated 2026",observed,data/raw/onet_15-1252.00_tasks.csv,Only 1 occupation retrieved so far; O*NET CC BY 4.0
+"O*NET task statements, Software QA Analysts and Testers 15-1253.00",O*NET OnLine details page retrieved 2026-10-15 (listing marked Updated 2026),observed,data/raw/onet_15-1253.00_tasks.csv,30 tasks; 3 flagged New have no importance rating yet

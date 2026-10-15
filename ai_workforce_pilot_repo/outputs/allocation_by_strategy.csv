@@ -1,0 +1,13 @@
+role,intervention,k,npv_per_employee,cost_per_employee,Optimised portfolio,Equal budget per role,Highest-exposure-first (reskill),Business as usual
+Software Developers,Redesign & monitor,D,38986.0,48000.0,2820,1736,0,0
+Software Developers,Reskill,A,19468.0,165000.0,0,0,0,0
+Software Developers,Redeploy,B,157533.0,94500.0,180,0,0,0
+Software Developers,Hire enablement specialists,C,-66276.0,210500.0,0,0,0,0
+QA Analysts & Testers,Redesign & monitor,D,21723.0,48000.0,1128,1200,0,0
+QA Analysts & Testers,Reskill,A,-4370.0,140000.0,0,0,0,0
+QA Analysts & Testers,Redeploy,B,99219.0,69500.0,72,0,0,0
+QA Analysts & Testers,Hire enablement specialists,C,-89294.0,210500.0,0,0,0,0
+Customer Service Reps,Redesign & monitor,D,-5430.0,48000.0,0,1736,0,0
+Customer Service Reps,Reskill,A,-42558.0,122500.0,0,0,2040,0
+Customer Service Reps,Redeploy,B,47647.0,52000.0,180,0,0,0
+Customer Service Reps,Hire enablement specialists,C,-125499.0,210500.0,0,0,0,0

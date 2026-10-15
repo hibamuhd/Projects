@@ -1,0 +1,10 @@
+occupation,threshold,weighted_task_share
+Software Developers,exposure>=2,0.8937728937728937
+Software Developers,exposure>=3,0.43956043956043955
+Software Developers,exposure>=4,0.19139194139194138
+QA Analysts & Testers,exposure>=2,0.9707218576476527
+QA Analysts & Testers,exposure>=3,0.6966178697627462
+QA Analysts & Testers,exposure>=4,0.28117112569409386
+Customer Service Reps,exposure>=2,1.0
+Customer Service Reps,exposure>=3,1.0
+Customer Service Reps,exposure>=4,0.39095477386934674

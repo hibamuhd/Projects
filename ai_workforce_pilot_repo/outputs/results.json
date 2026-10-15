@@ -1,0 +1,119 @@
+{
+ "strategies": {
+  "Optimised portfolio": {
+   "npv": 178521377.63069302,
+   "cost": 220878000.0,
+   "pv_cost": 181916517.85714284,
+   "pv_ben": 360437895.4878359,
+   "net_y": [
+    -71571466.70528677,
+    165979649.8696572,
+    154691722.01303005
+   ],
+   "employees": 4380,
+   "payback": 2,
+   "roi": 0.9813368227006414
+  },
+  "Equal budget per role": {
+   "npv": 84320827.45576294,
+   "cost": 224256000.0,
+   "pv_cost": 182127551.02040815,
+   "pv_ben": 266448378.47617108,
+   "net_y": [
+    -57621571.181655765,
+    55479197.261911795,
+    128608489.43269795
+   ],
+   "employees": 4672,
+   "payback": 3,
+   "roi": 0.4629767818396373
+  },
+  "Highest-exposure-first (reskill)": {
+   "npv": -86817889.06864342,
+   "cost": 249900000.0,
+   "pv_cost": 215221301.02040815,
+   "pv_ben": 128403411.95176472,
+   "net_y": [
+    -178681463.00077105,
+    38467572.78844447,
+    59081462.411678344
+   ],
+   "employees": 2040,
+   "payback": null,
+   "roi": -0.4033889241307533
+  },
+  "Business as usual": {
+   "npv": 0.0,
+   "cost": 0.0,
+   "pv_cost": 0.0,
+   "pv_ben": 0.0,
+   "net_y": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "employees": 0,
+   "payback": null,
+   "roi": null
+  }
+ },
+ "scenarios": {
+  "conservative": {
+   "fixed_portfolio_npv": 57384782.36397359,
+   "reoptimised_npv": 61648241.192923956,
+   "reoptimised": {
+    "Software Developers|D": 2820,
+    "Software Developers|B": 180,
+    "QA Analysts & Testers|B": 72,
+    "Customer Service Reps|B": 180
+   }
+  },
+  "base": {
+   "fixed_portfolio_npv": 178521377.63069302,
+   "reoptimised_npv": 178521377.63069302,
+   "reoptimised": {
+    "Software Developers|D": 2820,
+    "Software Developers|B": 180,
+    "QA Analysts & Testers|D": 1128,
+    "QA Analysts & Testers|B": 72,
+    "Customer Service Reps|B": 180
+   }
+  },
+  "accelerated": {
+   "fixed_portfolio_npv": 296814321.7649403,
+   "reoptimised_npv": 301864833.0483947,
+   "reoptimised": {
+    "Software Developers|D": 2820,
+    "Software Developers|B": 180,
+    "QA Analysts & Testers|D": 1128,
+    "QA Analysts & Testers|B": 72,
+    "Customer Service Reps|D": 606,
+    "Customer Service Reps|B": 180
+   }
+  }
+ },
+ "breakeven_benefit_scale": 0.5047097437158413,
+ "config": {
+  "scenario": "base",
+  "discount": 0.12,
+  "realisation": 0.35,
+  "monet": 0.6,
+  "completion": 0.85,
+  "success": 0.7,
+  "train_mult": 1.0,
+  "lag": [
+   0.6,
+   0.9,
+   1.0
+  ],
+  "attrition": 0.15,
+  "budget": 250000000,
+  "n_mult": 1.0,
+  "reskill_mult": 1.35,
+  "reskill_premium": 0.05,
+  "train_cap": 2500,
+  "b_cap": 0.06,
+  "c_cap": 0.25,
+  "min_cov": 0.05
+ }
+}
