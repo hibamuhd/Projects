@@ -6,26 +6,6 @@ This project implements a **synchronous, parameterized N-bit FIFO** along with a
 
 A FIFO First In First Out buffer is widely used to handle temporary data storage and flow control between producer and consumer blocks operating in the same clock domain.
 
----
-
-## How to Run
-
-This project includes automated scripts for compiling, simulating, and generating coverage reports.
-
-1. **Run the simulation**: Use the provided bash script to run tests and collect coverage databases.
-   ```bash
-   cd sim
-   ./run_script.bash
-   ```
-   *(Note: The `run_script.bash` cleans up older coverage directories and runs `xrun` with the correct flags.)*
-
-2. **Generate the coverage report**: A TCL script (`imc_cmd.tcl`) is available to automatically generate an HTML coverage report using Cadence IMC.
-   ```bash
-   cd sim
-   imc -exec imc_cmd.tcl
-   ```
-   This will export the detailed coverage report to the `sim/cov_html` directory.
-
 
 ## What is a FIFO
 
